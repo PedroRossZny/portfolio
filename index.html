@@ -428,6 +428,47 @@
                         <p>Entre os principais recursos do projeto estão a persistência de votos com possibilidade de edição, ranking dinâmico baseado em média e número de avaliações, comentários organizados em threads com filtros e curtidas, além de um sistema de identificação anônima por UUID armazenado no localStorage. A interface foi projetada seguindo uma abordagem mobile-first, garantindo uma experiência fluida tanto em dispositivos móveis quanto em desktop.</p>
                     </details>
                 </div>
+                <div>
+                    <img src="images/space-icon.png" alt="Icon Espaço">
+                    <h3>SpaceX Launch Explorer</h3>
+                    <p>Aplicativo mobile desenvolvido com React Native e Expo que consome a API oficial da SpaceX para exibir lançamentos espaciais. O app permite pesquisar missões, visualizar detalhes técnicos (foguete e local de lançamento) e salvar lançamentos favoritos por usuário utilizando armazenamento local.</p>
+                    <details>
+                        <summary>Saiba mais...</summary>
+                        <p>Aplicativo mobile desenvolvido com React Native e Expo que consome a API oficial da SpaceX (v4) para listar e explorar lançamentos espaciais. A aplicação permite que usuários naveguem pelos lançamentos mais recentes, pesquisem missões específicas e visualizem informações detalhadas sobre cada missão, incluindo dados do foguete utilizado e do local de lançamento.</p>
+                        <p>O sistema implementa autenticação simples com cadastro e login de usuários, armazenando as informações localmente com AsyncStorage. Cada usuário pode salvar lançamentos como favoritos, criando uma lista personalizada persistida no dispositivo.</p>
+                        <p>A interface foi construída com styled-components e segue um tema escuro, oferecendo uma experiência visual consistente. A navegação entre telas é realizada com React Navigation (Native Stack), permitindo transições fluidas entre listagem de missões, detalhes e favoritos.</p>
+                        <p>Entre as principais funcionalidades estão a busca dinâmica por nome de missão, listagem em ordem cronológica inversa (do lançamento mais recente para o mais antigo), carregamento assíncrono de informações complementares da missão através de requisições paralelas à API e persistência de dados de usuários e favoritos no armazenamento local do dispositivo.</p>
+                        <p>O projeto demonstra a construção de uma aplicação mobile completa, integrando consumo de API externa, gerenciamento de estado, navegação entre telas e persistência de dados no ambiente mobile.</p>
+                    </details>
+                </div>
+                <div>
+                    <img src="images/ambiente-icon.png" alt="Icon SOS-Ambiente">
+                    <h3>S.O.S Ambiente - Eco Actions & CO₂ Tracker</h3>
+                    <p>Aplicativo mobile desenvolvido com React Native e Expo para incentivar hábitos sustentáveis no dia a dia. O app permite registrar ações ecológicas, calcular emissões de CO₂ com base em atividades diárias e acompanhar históricos de registros e emissões, utilizando Context API para gerenciamento de estado e navegação por React Navigation.</p>
+                    <details>
+                        <summary>Saiba mais...</summary>
+                        <p>Projeto mobile desenvolvido com React Native utilizando Expo, com o objetivo de incentivar práticas sustentáveis e conscientização ambiental por meio do registro de ações ecológicas e do acompanhamento de emissões de carbono.</p>
+                        <p>O aplicativo permite que o usuário registre atividades sustentáveis realizadas no dia a dia, como reciclagem, economia de energia e redução do uso de plástico. Essas ações são armazenadas em um histórico que pode ser consultado ou gerenciado diretamente pelo usuário.</p>
+                        <p>Além disso, o app possui um módulo de monitoramento de emissões de CO₂, no qual o usuário pode selecionar diferentes atividades de locomoção ou uso de recursos, permitindo múltiplas seleções para calcular a emissão total estimada. Os registros são armazenados em um histórico específico de emissões, com opção de exclusão individual.</p>
+                        <p>O projeto também inclui um sistema de cálculo rápido de emissões de carbono com base em quilometragem percorrida de carro e tempo de uso de eletrônicos, fornecendo uma estimativa simples do impacto ambiental dessas atividades.</p>
+                        <p>A aplicação utiliza React Navigation para navegação entre telas, Context API para gerenciamento global de estado, além de uma interface minimalista com background temático de natureza e efeitos de overlay, proporcionando uma experiência visual simples e coerente com o tema ambiental.</p>
+                    </details>
+                </div>
+                <div>
+                    <img src="images/cafe-icon.png" alt="Icon Smoke Coffee">
+                    <h3>Smoke Coffee - Mobile Coffee Shop App</h3>
+                    <p>Aplicativo mobile de cafeteria desenvolvido com React Native e Expo, permitindo navegação por cardápio, autenticação de usuários, gerenciamento de perfil, carrinho de compras e simulação de pagamento via Pix ou cartão. O projeto utiliza React Navigation para roteamento, AsyncStorage para persistência local de dados e integração com push notifications para atualização do status dos pedidos.</p>
+                    <details>
+                        <summary>Saiba mais...</summary>
+                        <p>Aplicativo mobile desenvolvido com React Native utilizando Expo, simulando o funcionamento de um sistema de pedidos para uma cafeteria digital.</p>
+                        <p>O projeto inclui um fluxo completo de usuário, iniciando com tela de splash, autenticação e criação de conta, permitindo cadastro com nome, e-mail, data de nascimento, endereço e senha. Os dados dos usuários são armazenados localmente utilizando AsyncStorage, permitindo persistência de múltiplas contas e gerenciamento de sessão.</p>
+                        <p>Após o login, o usuário pode acessar o cardápio interativo, que apresenta produtos com imagem, descrição e preço. Os itens podem ser adicionados ou removidos de um carrinho de compras dinâmico, com cálculo automático do valor total do pedido.</p>
+                        <p>O aplicativo também inclui um sistema de pagamento simulado, oferecendo opções de Pix ou cartão, com validação básica de dados quando a opção de cartão é selecionada. Após a confirmação do pagamento, um número de pedido é gerado automaticamente, simulando um fluxo real de compra.</p>
+                        <p>Além disso, o projeto utiliza push notifications para enviar mensagens ao usuário, como notificações de boas-vindas e avisos quando o pedido está pronto para retirada.</p>
+                        <p>O app também possui uma área de perfil do usuário, permitindo visualizar e editar informações pessoais, além de atualizar a senha mediante validação da senha atual. Toda a navegação entre telas é gerenciada utilizando React Navigation com Stack Navigator, organizando o fluxo completo da aplicação.</p>
+                        <p>O projeto demonstra conceitos importantes de desenvolvimento mobile, incluindo gerenciamento de estado com React Hooks, persistência de dados local, navegação entre múltiplas telas, validação de formulários, simulação de fluxo de e-commerce e integração com notificações do sistema.</p>
+                    </details>
+                </div>
             </article>
         </section>
     </main>
