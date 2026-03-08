@@ -95,3 +95,79 @@ div.social a {
     color: var(--destaque);
 }
 
+section#detalhes {
+    grid-column: 2;
+}
+
+article {
+    background-color: var(--fundo-secundario);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+article h2 {
+    color: var(--destaque);
+    margin-bottom: 20px;
+}
+
+#formacao-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+#formacao-container .curso {
+    background-color: var(--fundo-principal);
+    border-radius: 8px;
+    border-left: 5px solid var(--destaque-inverso);
+    padding-left: 15px;
+}
+
+#formacao-container .periodo {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: var(--texto);
+}
+
+#formacao-container .instituicao {
+    color: var(--destaque-secundario);
+    font-size: 1.1em;
+}
+
+#projeto-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+#projeto-container .projeto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--fundo-principal);
+    padding: 10px;
+    border-radius: 8px;
+    border-left: 5px solid var(--destaque-secundario);
+}
+
+#projeto-container .foto {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: var(--destaque);
+    color: var(--text0-inverso);
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: var(--texto-inverso);
+    text-decoration: none;
+    font-weight: bold;
+}
