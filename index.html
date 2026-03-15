@@ -6,14 +6,15 @@
     <title>Portfólio - Pedro Henrique Rodrigues Ross</title>
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/73139c5dad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
     <header>
         <nav id="menu">
             <ul>
                 <li><a href="#tecnologias" class="link"><i class="fa-solid fa-laptop-code"></i></a></li>
-                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
                 <li><a href="#projetos" class="link"><i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
                 <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
@@ -24,8 +25,7 @@
             <article>
                 <img src="images/pedro.jpg" alt="Foto de Pedro Henrique Rodrigues Ross" class="perfil">
                 <h1>Pedro Henrique Rodrigues Ross</h1>
-                <p>Desenvolvedor Full-Stack (Mobile & Web), com foco em Nest.js, Next.js, React Native, React, Node.js, Python, PostgreSQL e desenvolvimento de REST APIs.</p>
-                <p>Atualmente atuo como freelancer, criando projetos web e mobile sob medida.</p>
+                <p>Desenvolvedor Full-Stack (Mobile & Web), com foco em Nest.js, Next.js, React Native, React, Node.js, Python, PostgreSQL e desenvolvimento de REST APIs. Atualmente atuo como freelancer, criando projetos web e mobile sob medida.</p>
                 
                 <div class="social">
                     <a href="mailto:pedrohenriquerodriguesross@gmail.com" target="_blank" rel="nofollow"><i class="fa-solid fa-at"></i></a>
@@ -37,63 +37,65 @@
         </section>
 
         <section id="detalhes">
-            
             <article id="tecnologias">
-                <h2><i class="fa-solid fa-laptop-code"></i> Tecnologias</h2>
+                <h2><i class="fa-solid fa-laptop-code"></i> Tecnologias <span class="dica-filtro">(Clique em uma para filtrar os projetos)</span></h2>
                 
                 <div class="tech-container">
                     <div class="tech-group">
-                        <h3>Frontend</h3>
+                        <h3>Frontend & Mobile</h3>
                         <div class="tech-botoes">
-                            <div class="tech-btn"><i class="fa-brands fa-html5"></i> HTML5</div>
-                            <div class="tech-btn"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
-                            <div class="tech-btn"><i class="fa-brands fa-js"></i> JavaScript</div>
-                            <div class="tech-btn"><i class="fa-brands fa-react"></i> React</div>
-                            <div class="tech-btn"><i class="fa-brands fa-react"></i> React Native</div>
+                            <div class="tech-btn" data-filter="html5"><i class="devicon-html5-plain"></i> HTML5</div>
+                            <div class="tech-btn" data-filter="css3"><i class="devicon-css3-plain"></i> CSS3</div>
+                            <div class="tech-btn" data-filter="javascript"><i class="devicon-javascript-plain"></i> JavaScript</div>
+                            <div class="tech-btn" data-filter="nextjs"><i class="devicon-nextjs-plain"></i> Next.js</div>
+                            <div class="tech-btn" data-filter="typescript"><i class="devicon-typescript-plain"></i> TypeScript</div>
+                            <div class="tech-btn" data-filter="reactnative"><i class="devicon-reactnative-original"></i> React Native</div>
+                            <div class="tech-btn" data-filter="expo"><i class="devicon-expo-original"></i> Expo</div>
+                            <div class="tech-btn" data-filter="tailwindcss"><i class="devicon-tailwindcss-original"></i> Tailwind CSS</div>
                         </div>
                     </div>
 
                     <div class="tech-group">
-                        <h3>Backend</h3>
+                        <h3>Backend & Banco de Dados</h3>
                         <div class="tech-botoes">
-                            <div class="tech-btn"><i class="fa-brands fa-node-js"></i> Node.js</div>
-                            <div class="tech-btn"><i class="fa-brands fa-python"></i> Python</div>
+                            <div class="tech-btn" data-filter="nodejs"><i class="devicon-nodejs-plain"></i> Node.js</div>
+                            <div class="tech-btn" data-filter="python"><i class="devicon-python-plain"></i> Python</div>
+                            <div class="tech-btn" data-filter="nestjs"><i class="devicon-nestjs-original"></i> NestJS</div>
+                            <div class="tech-btn" data-filter="express"><i class="devicon-express-original"></i> Express.js</div>
+                            <div class="tech-btn" data-filter="postgresql"><i class="devicon-postgresql-plain"></i> PostgreSQL</div>
+                            <div class="tech-btn" data-filter="sqlite"><i class="devicon-sqlite-plain"></i> SQLite</div>
+                            <div class="tech-btn" data-filter="sequelize"><i class="devicon-sequelize-plain"></i> Sequelize</div>
                         </div>
                     </div>
 
                     <div class="tech-group">
-                        <h3>Banco de Dados</h3>
+                        <h3>Ferramentas & Extras</h3>
                         <div class="tech-botoes">
-                            <div class="tech-btn"><i class="fa-solid fa-database"></i> PostgreSQL</div>
+                            <div class="tech-btn" data-filter="git"><i class="devicon-git-plain"></i> Git</div>
+                            <div class="tech-btn" data-filter="github"><i class="devicon-github-original"></i> GitHub</div>
+                            <div class="tech-btn" data-filter="styledcomponents"><i class="devicon-styledcomponents-plain"></i> Styled Components</div>
+                            <div class="tech-btn" data-filter="ecossistemareactnative"><i class="devicon-reactnavigation-original"></i> Mobile Core</div>
+                            <div class="tech-btn" data-filter="axios"><i class="devicon-axios-plain"></i> Axios</div>
+                            <div class="tech-btn" data-filter="recursosui"><i class="devicon-materialui-plain"></i> UI Libs</div>
                         </div>
-                    </div>
-
-                    <div class="tech-group">
-                        <h3>Ferramentas</h3>
-                        <div class="tech-botoes">
-                            <div class="tech-btn"><i class="fa-brands fa-git"></i> Git</div>
-                            <div class="tech-btn"><i class="fa-brands fa-github"></i> GitHub</div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <article id="formacao">
-                <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">2023 - 2026</p>
-                        <h3 class="instituicao">UNIFRAN</h3>
-                        <p class="titulacao">Bacharelado em Ciência da Computação</p>
                     </div>
                 </div>
             </article>
 
             <article id="projetos">
-                <h2><i class="fa-solid fa-screwdriver-wrench"></i> Projetos</h2>
+                <h2>
+                    <span class="titulo-projetos">
+                        <i class="fa-solid fa-screwdriver-wrench"></i> Projetos
+                        <span id="filtro-ativo"></span>
+                    </span>
+
+                    <button id="limpar-filtro" title="Limpar Filtro">
+                        <i class="fa-solid fa-filter-circle-xmark"></i>
+                    </button>
+                </h2>
+
                 <div id="projeto-container">
-                    
-                    <div class="projeto">
+                    <div class="projeto" data-tech="">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -137,7 +139,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="nextjs typescript tailwindcss nestjs postgresql git github">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -264,7 +266,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="reactnative expo javascript styledcomponents git github axios ecossistemareactnative">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -368,7 +370,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="reactnative expo javascript git github ecossistemareactnative">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -466,7 +468,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="reactnative expo javascript git github ecossistemareactnative">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -558,7 +560,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="html5 css3 javascript nodejs express sqlite sequelize git github">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -649,7 +651,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="html5 css3 javascript git github">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -708,7 +710,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="html5 css3 git github recursosui">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -769,7 +771,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="html5 css3 git github">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -826,7 +828,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="html5 css3 git github recursosui">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -885,7 +887,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="html5 css3 git github">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -943,7 +945,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="javascript">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -994,7 +996,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="python">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -1043,7 +1045,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="html5 css3">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -1094,7 +1096,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="python">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -1129,17 +1131,10 @@
                                     </ul>
                                 </div>
                             </div>
-
-                            <hr class="divisor-interativo">
-                            <h4>Teste na Prática</h4>
-                            <div class="demo-container">
-                                <button id="btn-sortear" class="btn-interativo">Sortear 5 Números</button>
-                                <p id="res-sorteio" class="resultado-logica"></p>
-                            </div>
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="python">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -1174,19 +1169,10 @@
                                     </ul>
                                 </div>
                             </div>
-
-                            <hr class="divisor-interativo">
-                            <h4>Teste na Prática</h4>
-                            <div class="demo-container flex-column">
-                                <input type="text" id="jog-nome" placeholder="Nome do Jogador" class="input-demo">
-                                <input type="text" id="jog-gols" placeholder="Gols (ex: 1, 0, 2)" class="input-demo">
-                                <button id="btn-jogadores" class="btn-interativo">Gerar Relatório</button>
-                                <p id="res-jogadores" class="resultado-logica"></p>
-                            </div>
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="python">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -1221,24 +1207,10 @@
                                     </ul>
                                 </div>
                             </div>
-
-                            <hr class="divisor-interativo">
-                            <h4>Teste na Prática</h4>
-                            <div class="demo-container flex-column">
-                                <div class="flex-row">
-                                    <select id="poi-escolha" class="input-demo">
-                                        <option value="P">Par</option>
-                                        <option value="I">Ímpar</option>
-                                    </select>
-                                    <input type="number" id="poi-num" placeholder="Nº 0-10" class="input-demo">
-                                </div>
-                                <button id="btn-poi" class="btn-interativo">Jogar</button>
-                                <p id="res-poi" class="resultado-logica"></p>
-                            </div>
                         </div>
                     </div>
                     
-                    <div class="projeto">
+                    <div class="projeto" data-tech="python">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -1273,18 +1245,10 @@
                                     </ul>
                                 </div>
                             </div>
-
-                            <hr class="divisor-interativo">
-                            <h4>Teste na Prática</h4>
-                            <div class="demo-container flex-column">
-                                <input type="number" id="atm-valor" placeholder="Valor (R$)" class="input-demo">
-                                <button id="btn-atm" class="btn-interativo">Calcular Saque</button>
-                                <p id="res-atm" class="resultado-logica"></p>
-                            </div>
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="python">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -1319,18 +1283,10 @@
                                     </ul>
                                 </div>
                             </div>
-
-                            <hr class="divisor-interativo">
-                            <h4>Teste na Prática</h4>
-                            <div class="demo-container flex-column">
-                                <input type="number" id="multa-vel" placeholder="Velocidade (km/h)" class="input-demo">
-                                <button id="btn-multa" class="btn-interativo">Verificar Radar</button>
-                                <p id="res-multa" class="resultado-logica"></p>
-                            </div>
                         </div>
                     </div>
 
-                    <div class="projeto">
+                    <div class="projeto" data-tech="python">
                         <div class="projeto-controle">
                             <button class="btn-expandir" title="Expandir/Recolher"><i class="fa-solid fa-expand"></i></button>
                         </div>
@@ -1365,15 +1321,18 @@
                                     </ul>
                                 </div>
                             </div>
-                            
-                            <hr class="divisor-interativo">
-                            <h4>Teste na Prática</h4>
-                            <div class="demo-container flex-column">
-                                <input type="number" id="adv-num" placeholder="Palpite (0 a 5)" class="input-demo">
-                                <button id="btn-adv" class="btn-interativo">Tentar</button>
-                                <p id="res-adv" class="resultado-logica"></p>
-                            </div>
                         </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="formacao">
+                <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2023 - 2026</p>
+                        <h3 class="instituicao">UNIFRAN</h3>
+                        <p class="titulacao">Bacharelado em Ciência da Computação</p>
                     </div>
                 </div>
             </article>
